@@ -1,2 +1,1 @@
-# assignments
-React Assignments App
+Assignments

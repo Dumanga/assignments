@@ -1,0 +1,58 @@
+.assignment-body{
+  background-color: #383732;
+  height: 100vh;
+}
+
+.card-grid-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.grid-title {
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.grid-subtitle{
+  color: white;
+  font-size: 1rem;
+  margin: 20px;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  padding: 20px;
+}
+
+.card {
+  background-color: #787672;
+  border: 1px solid #373838;
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card h2 {
+  margin: 0 0 8px;
+  font-size: 1.5rem;
+  color: white;
+  background-color: #787672;
+}
+
+.card p {
+  margin: 0;
+  font-size: 1rem;
+  color: white;
+  background-color: #787672;
+}
