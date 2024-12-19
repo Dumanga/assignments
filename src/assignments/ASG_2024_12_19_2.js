@@ -37,13 +37,13 @@ export default function Assignment5() {
 
   const handleMove = (index, moveType) => {
     const newDataset = [...dataset];
-    if (moveType === "Right" && index < dataset.length - 1) {
+    if (moveType === "Right") {
       // MoveDown
       [newDataset[index], newDataset[index + 1]] = [
         newDataset[index + 1],
         newDataset[index],
       ];
-    } else if (moveType === "Left" && index > 0) {
+    } else if (moveType === "Left") {
       // MoveUp
       [newDataset[index], newDataset[index - 1]] = [
         newDataset[index - 1],
@@ -83,7 +83,7 @@ export default function Assignment5() {
           {dataset.map((item, index) => (
             <>
               <li key={index}>{item}</li>
-              <button onClick={() => handleItemDelete(index)}>Delete</button>
+              <button onClick={handleItemDelete(index)}>Delete</button>
               <button
                 onClick={() => handleMove(index, "Left")}
                 style={{ marginLeft: 16 }}

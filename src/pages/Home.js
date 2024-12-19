@@ -1,7 +1,10 @@
 import React from "react";
 import "./Home.css";
+import { useNavigate } from "react-router-dom";
 
 const Home = () => {
+
+  const navigate = useNavigate();
   const Assignments = [
     {
       id: 1,
@@ -45,7 +48,7 @@ const Home = () => {
             <div
               key={card.id}
               className="card"
-              onClick={() => (window.location.href = card.location)}
+              onClick={() => navigate(card.location)}
             >
               <h2>{card.title}</h2>
               <p>{card.description}</p>
