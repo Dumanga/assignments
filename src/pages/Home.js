@@ -3,7 +3,6 @@ import "./Home.css";
 import { useNavigate } from "react-router-dom";
 
 const Home = () => {
-
   const navigate = useNavigate();
   const Assignments = [
     {
@@ -35,6 +34,12 @@ const Home = () => {
       title: "Assignment 5",
       description: "ASG_2024_12_19_2",
       location: "/ASG_2024_12_19_2",
+    },
+    {
+      id: 6,
+      title: "Assignment 6",
+      description: "ASG_2024_12_20_1",
+      location: "/ASG_2024_12_20_1",
     },
   ];
 
