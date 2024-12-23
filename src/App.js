@@ -8,6 +8,7 @@ import Assignment4 from "./assignments/ASG_2024_12_19_1";
 import Assignment5 from "./assignments/ASG_2024_12_19_2"; 
 import Assignment6 from "./assignments/ASG_2024_12_20_1";
 import Assignment7 from "./assignments/ASG_2024_12_23_1";
+import Assignment8 from "./assignments/ASG_2024_12_23_2";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/ASG_2024_12_19_2" element={<Assignment5 />} />
         <Route path="/ASG_2024_12_20_1" element={<Assignment6 />} />
         <Route path="/ASG_2024_12_23_1" element={<Assignment7 />} />
+        <Route path="/ASG_2024_12_23_2" element={<Assignment8 />} />
       </Routes>
     </HashRouter>
   );

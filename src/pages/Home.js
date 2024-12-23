@@ -45,6 +45,11 @@ const Home = () => {
       title: "Assignment 7",
       description: "ASG_2024_12_23_1",
       location: "/ASG_2024_12_23_1",
+    },{
+      id: 8,
+      title: "Assignment 8",
+      description: "ASG_2024_12_23_2",
+      location: "/ASG_2024_12_23_2",
     },
   ];
 
