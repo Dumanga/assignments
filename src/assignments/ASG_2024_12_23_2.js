@@ -40,7 +40,7 @@ export default function Assignment8() {
         value={searchText}
         onChange={(e) => setSearchText(e.target.value)}
       />
-      <button style={{ marginLeft: "16px" }} onClick={handleSearch}>
+      <button style={{ marginLeft: "16px" }} onClick={handleSearch} disabled={!searchText || loading}>
         Search
       </button>
       <button
@@ -49,11 +49,14 @@ export default function Assignment8() {
           handleColors();
           setSearchText("");
         }}
+        disabled={!searchText || loading}
       >
         Reset
       </button>
       {loading ? (
         <CircularProgress />
+      ) : colors.length === 0 ? (
+        <p>No such color</p>
       ) : (
         <ul>
           {colors.map((color, index) => (
