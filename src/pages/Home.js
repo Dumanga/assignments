@@ -65,6 +65,26 @@ const Home = () => {
       title: "Assignment 11",
       description: "ASG_2024_12_31_1",
       location: "/ASG_2024_12_31_1",
+    },{
+      id: 12,
+      title: "Assignment 12",
+      description: "ASG_2025_01_01_1",
+      location: "/ASG_2025_01_01_1",
+    },{
+      id: 13,
+      title: "Assignment 13",
+      description: "ASG_2025_01_02_1",
+      location: "/ASG_2025_01_02_1",
+    },{
+      id: 14,
+      title: "Assignment 14",
+      description: "ASG_2025_01_06_1",
+      location: "/ASG_2025_01_06_1",
+    },{
+      id: 15,
+      title: "Assignment 15",
+      description: "ASG_2025_01_07_1",
+      location: "/ASG_2025_01_07_1",
     },
   ];
 
